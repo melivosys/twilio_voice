@@ -1,10 +1,15 @@
-## Next release
+## 0.1.4
+* Bump Android dependency: TwilioVoice upgraded from 6.3.2 to 6.13.0.
+* Bump iOS dependency: TwilioVoice upgraded from ~>6.9.1 to ~>6.13.0.
+* Bump plugin version from 0.1.3 to 0.1.4.
+* Credit update: Now maintained by Samuel Mukoti from Melivo Global Solutions.
+
 * Update example
   * [Web] Update example with Firebase Analytics (Web, optional)
   * [Web] Added environment registration support
   * Added `defines.config.json` file to example to support environment configuration used with ```flutter run --dart-defines-file=defines.config.json```
   * [Web] Added `FIREBASE_ENABLE` defines to initialize Firebase only if set to true
-* [Web] Added raw `Connect({Map<String, dynamic>?})` sent to TwiML webhook.
+* [Web] Added raw `Connect({Map<String, dynamic>?})` sent to TwML webhook.
   * [Android] Fix `showMissedCallNotifications` not working due to incorrect method channel name
 
 ## 0.1.3
