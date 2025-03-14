@@ -49,3 +49,6 @@ build/
 *.log
 
 .firebase/
+
+# FVM Version Cache
+.fvm/
