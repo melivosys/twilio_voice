@@ -18,6 +18,9 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://maven.twilio.com/releases"
+        }
     }
 }
 
@@ -27,6 +30,7 @@ apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
     compileSdk 34
+    namespace 'com.twilio.twilio_voice'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
